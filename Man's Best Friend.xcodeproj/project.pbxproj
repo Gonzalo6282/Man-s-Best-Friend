@@ -21,6 +21,13 @@
 		065BB8C51A126A670017D8CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 065BB8A71A126A660017D8CD /* UIKit.framework */; };
 		065BB8CD1A126A670017D8CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 065BB8CB1A126A670017D8CD /* InfoPlist.strings */; };
 		065BB8CF1A126A670017D8CD /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BB8CE1A126A670017D8CD /* Man_s_Best_FriendTests.m */; };
+		065BB8DA1A126CB40017D8CD /* LNDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 065BB8D91A126CB40017D8CD /* LNDog.m */; };
+		06A528161A13DCE600380D76 /* St.Bernard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06A528151A13DCE600380D76 /* St.Bernard.jpg */; };
+		06A5281A1A14086C00380D76 /* Collie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06A528171A14086C00380D76 /* Collie.jpg */; };
+		06A5281B1A14086C00380D76 /* Greyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06A528181A14086C00380D76 /* Greyhound.jpg */; };
+		06A69B9B1A150384005DBBA3 /* LNPupy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A69B9A1A150384005DBBA3 /* LNPupy.m */; };
+		06A69B9D1A1508C4005DBBA3 /* Bo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 06A69B9C1A1508C4005DBBA3 /* Bo.jpeg */; };
+		06B497F61A14CCEB000EB0EC /* JackRussellTerrier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06B497F51A14CCEB000EB0EC /* JackRussellTerrier.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		065BB8CA1A126A670017D8CD /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		065BB8CC1A126A670017D8CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		065BB8CE1A126A670017D8CD /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		065BB8D81A126CB40017D8CD /* LNDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LNDog.h; path = ../LNDog.h; sourceTree = "<group>"; };
+		065BB8D91A126CB40017D8CD /* LNDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LNDog.m; path = ../LNDog.m; sourceTree = "<group>"; };
+		06A528151A13DCE600380D76 /* St.Bernard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.jpg; sourceTree = "<group>"; };
+		06A528171A14086C00380D76 /* Collie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Collie.jpg; sourceTree = "<group>"; };
+		06A528181A14086C00380D76 /* Greyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Greyhound.jpg; sourceTree = "<group>"; };
+		06A69B991A150384005DBBA3 /* LNPupy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNPupy.h; sourceTree = "<group>"; };
+		06A69B9A1A150384005DBBA3 /* LNPupy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNPupy.m; sourceTree = "<group>"; };
+		06A69B9C1A1508C4005DBBA3 /* Bo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpeg; sourceTree = "<group>"; };
+		06B497F51A14CCEB000EB0EC /* JackRussellTerrier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JackRussellTerrier.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				065BB8B51A126A670017D8CD /* Main.storyboard */,
 				065BB8B81A126A670017D8CD /* LNViewController.h */,
 				065BB8B91A126A670017D8CD /* LNViewController.m */,
+				065BB8D91A126CB40017D8CD /* LNDog.m */,
+				065BB8D81A126CB40017D8CD /* LNDog.h */,
+				06A69B991A150384005DBBA3 /* LNPupy.h */,
+				06A69B9A1A150384005DBBA3 /* LNPupy.m */,
 				065BB8BB1A126A670017D8CD /* Images.xcassets */,
 				065BB8AA1A126A660017D8CD /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		065BB8AA1A126A660017D8CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				06A69B9C1A1508C4005DBBA3 /* Bo.jpeg */,
+				06B497F51A14CCEB000EB0EC /* JackRussellTerrier.jpg */,
+				06A528171A14086C00380D76 /* Collie.jpg */,
+				06A528181A14086C00380D76 /* Greyhound.jpg */,
+				06A528151A13DCE600380D76 /* St.Bernard.jpg */,
 				065BB8AB1A126A660017D8CD /* Man's Best Friend-Info.plist */,
 				065BB8AC1A126A660017D8CD /* InfoPlist.strings */,
 				065BB8AF1A126A660017D8CD /* main.m */,
@@ -229,8 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06A5281A1A14086C00380D76 /* Collie.jpg in Resources */,
+				06A5281B1A14086C00380D76 /* Greyhound.jpg in Resources */,
+				06A528161A13DCE600380D76 /* St.Bernard.jpg in Resources */,
 				065BB8BC1A126A670017D8CD /* Images.xcassets in Resources */,
+				06A69B9D1A1508C4005DBBA3 /* Bo.jpeg in Resources */,
 				065BB8AE1A126A660017D8CD /* InfoPlist.strings in Resources */,
+				06B497F61A14CCEB000EB0EC /* JackRussellTerrier.jpg in Resources */,
 				065BB8B71A126A670017D8CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				065BB8B41A126A670017D8CD /* LNAppDelegate.m in Sources */,
+				06A69B9B1A150384005DBBA3 /* LNPupy.m in Sources */,
 				065BB8B01A126A660017D8CD /* main.m in Sources */,
+				065BB8DA1A126CB40017D8CD /* LNDog.m in Sources */,
 				065BB8BA1A126A670017D8CD /* LNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +489,7 @@
 				065BB8D41A126A670017D8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		065BB8D51A126A670017D8CD /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +498,7 @@
 				065BB8D71A126A670017D8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
